@@ -1,0 +1,7 @@
+include Irvine32.inc
+.data 
+String byte "Hello World! hello",0 
+String byte "World",0 
+.code 
+main PROC 
+mov edx,offset String 
